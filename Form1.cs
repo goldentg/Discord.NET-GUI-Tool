@@ -14,10 +14,6 @@ namespace Discord.NET_GUI_Tool
             InitializeComponent();
         }
 
-        private void richTextBox1_TextChanged(object sender, EventArgs e)
-        {
-        }
-
         private async void connect_b_Click(object sender, EventArgs e)
         {
             Client = new DiscordSocketClient(new DiscordSocketConfig

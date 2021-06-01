@@ -37,9 +37,9 @@ namespace Discord.NET_GUI_Tool
             // 
             // connect_b
             // 
-            this.connect_b.Location = new System.Drawing.Point(393, 374);
+            this.connect_b.Location = new System.Drawing.Point(706, 17);
             this.connect_b.Name = "connect_b";
-            this.connect_b.Size = new System.Drawing.Size(82, 49);
+            this.connect_b.Size = new System.Drawing.Size(97, 23);
             this.connect_b.TabIndex = 0;
             this.connect_b.Text = "Connect";
             this.connect_b.UseVisualStyleBackColor = true;
@@ -47,26 +47,30 @@ namespace Discord.NET_GUI_Tool
             // 
             // console_output_rtb
             // 
-            this.console_output_rtb.Location = new System.Drawing.Point(56, 46);
+            this.console_output_rtb.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(74)))), ((int)(((byte)(79)))), ((int)(((byte)(99)))));
+            this.console_output_rtb.ForeColor = System.Drawing.SystemColors.Info;
+            this.console_output_rtb.Location = new System.Drawing.Point(68, 46);
             this.console_output_rtb.Name = "console_output_rtb";
-            this.console_output_rtb.Size = new System.Drawing.Size(766, 286);
+            this.console_output_rtb.Size = new System.Drawing.Size(623, 286);
             this.console_output_rtb.TabIndex = 1;
             this.console_output_rtb.Text = "";
-            this.console_output_rtb.TextChanged += new System.EventHandler(this.richTextBox1_TextChanged);
             // 
             // token_tb
             // 
-            this.token_tb.Location = new System.Drawing.Point(56, 6);
+            this.token_tb.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(74)))), ((int)(((byte)(79)))), ((int)(((byte)(99)))));
+            this.token_tb.Location = new System.Drawing.Point(68, 17);
             this.token_tb.Name = "token_tb";
-            this.token_tb.Size = new System.Drawing.Size(766, 23);
+            this.token_tb.Size = new System.Drawing.Size(623, 23);
             this.token_tb.TabIndex = 2;
             // 
             // token_l
             // 
             this.token_l.AutoSize = true;
-            this.token_l.Location = new System.Drawing.Point(12, 9);
+            this.token_l.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.token_l.ForeColor = System.Drawing.Color.Silver;
+            this.token_l.Location = new System.Drawing.Point(7, 20);
             this.token_l.Name = "token_l";
-            this.token_l.Size = new System.Drawing.Size(41, 15);
+            this.token_l.Size = new System.Drawing.Size(55, 16);
             this.token_l.TabIndex = 3;
             this.token_l.Text = "Token:";
             // 
@@ -74,6 +78,7 @@ namespace Discord.NET_GUI_Tool
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(51)))), ((int)(((byte)(73)))));
             this.ClientSize = new System.Drawing.Size(850, 467);
             this.Controls.Add(this.token_l);
             this.Controls.Add(this.token_tb);
