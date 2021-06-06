@@ -35,6 +35,7 @@ namespace Discord.NET_GUI_Tool
             }
             catch
             {
+                //If error occurred when connecting to the API with inputted token create an error popup
                 MessageBox.Show("An error occurred when trying to connect to the Discord API using inputted token",
                     "ERROR");
                 return;
