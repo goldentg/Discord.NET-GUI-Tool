@@ -85,7 +85,7 @@ namespace Discord.NET_GUI_Tool
             this.Controls.Add(this.console_output_rtb);
             this.Controls.Add(this.connect_b);
             this.Name = "Form1";
-            this.Text = "Connect";
+            this.Text = "Discord.NET GUI Tool";
             this.ResumeLayout(false);
             this.PerformLayout();
 
