@@ -10,6 +10,6 @@
 
 * [Information](#information)
 
-## Information
+## **Information**
 ***
 This tool allows Discord .NET bot developers to easily integrate their code with a easy to use GUI for their project. 
